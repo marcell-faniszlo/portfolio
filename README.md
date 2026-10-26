@@ -1,20 +1,33 @@
-# Creative × Technical Portfolio
+# Marcell Faniszló — Portfolio
 
-A responsive personal portfolio built with HTML, CSS, and JavaScript, ready for GitHub Pages.
+A responsive portfolio built with plain HTML, CSS and JavaScript. No build step or dependencies are required.
 
 ## Preview locally
-Open `index.html` in your browser. No build step required.
 
-## Publish on GitHub Pages
-1. Create a **public** repository named `YOUR_USERNAME.github.io` (replace `YOUR_USERNAME` with your GitHub username).
-2. Upload `index.html`, `styles.css`, and `script.js` to the root of the repository and commit them.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-5. Visit `https://YOUR_USERNAME.github.io/` once the deployment finishes.
+Open `index.html` in a browser, or serve this directory with a local static server.
 
-## Before publishing
-- Replace the `hello@example.com` contact email in `index.html`.
-- Review all project descriptions and ensure the details accurately represent your work.
-- Add links to your LinkedIn, GitHub profile, and project examples.
-- Add project screenshots or videos when you have permission to share them.
-- Customize your display name and page metadata if needed.
+## Structure
+
+- Home: introduction and six featured projects linking to detailed work sections.
+- Work: Professional Work, Independent Creative Projects and Academic Research.
+- About: interdisciplinary background, professional interests and VMLY&R experience.
+- Skills and tools: capabilities grounded in the supplied work inventory.
+- Contact: GitHub, plus clearly marked email and LinkedIn placeholders.
+
+Project details use same-page anchors so all content remains accessible without JavaScript. `script.js` updates the footer year.
+
+## GitHub Pages
+
+The intended repository is `marcell-faniszlo/portfolio`, served at `https://marcell-faniszlo.github.io/portfolio/`. In the repository's Settings → Pages, select the intended deployment branch and its root directory. Keep `index.html`, `styles.css` and `script.js` together at that root. Local assets use relative URLs to support the `/portfolio/` subpath.
+
+No deployment, commit or push is performed as part of this content update.
+
+## Information still needed
+
+- Confirmed email address and LinkedIn profile URL.
+- Actual project visuals and approved external project links; the featured cards currently label their visual placeholders explicitly.
+- Specific contributions to Budapest Spas / BGYH Zrt., if a fuller account is desired.
+- Thesis links and any research status, methods or findings to be shared beyond the supplied descriptions.
+- Additional software tools, dates or experience details only after confirmation.
+
+The GitHub profile link uses the username supplied in the repository URL. Review all content before publishing.
