@@ -24,7 +24,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 .site-header nav a:hover { text-decoration: underline; }
 .hero { padding-block: 88px 40px; }
 .eyebrow { margin: 0 0 24px; font-size: 11px; line-height: 1.8; letter-spacing: .13em; font-weight: 700; }
-h1, h2, h3, h4 { line-height: 1.18; font-weight: 500; }
+h1, h2, h3, h4, h5 { line-height: 1.18; font-weight: 500; }
 h1 { font-size: clamp(42px, 6.3vw, 76px); letter-spacing: -.05em; margin: 0; }
 h1 em, h2 em { font-family: Georgia, serif; font-weight: 400; }
 h2 { font-size: clamp(30px, 3.6vw, 44px); letter-spacing: -.035em; margin: 0 0 28px; }
@@ -54,6 +54,8 @@ p { margin: 0 0 18px; }
 .work-detail { grid-column: 2; border-top: 1px solid var(--line); padding-block: 24px 12px; min-width: 0; }
 .work-category > h3 + .work-detail { grid-row: 1 / span 2; }
 .work-detail h4 { font-size: 21px; margin: 0 0 10px; letter-spacing: -.02em; }
+.client-project { margin-top: 24px; }
+.client-project h5 { font-size: 17px; margin: 0 0 10px; }
 .work-detail p { color: var(--muted); }
 .work-detail .role { font-size: 13px; color: var(--accent); font-weight: 600; }
 .category-intro { grid-column: 1; font-size: 13px; color: var(--muted); padding-top: 16px; align-self: start; }

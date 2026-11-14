@@ -9,8 +9,9 @@ Open `index.html` in a browser, or serve this directory with a local static serv
 ## Structure
 
 - Home: introduction and four featured project areas linking to detailed work sections.
-- Work: Professional Work, Independent Creative Production and Research & Technology.
-- About: interdisciplinary background, and professional interests. VMLY&R is included under Professional Work.
+- Work: Professional Work, Independent Creative Production and Academic Research.
+- Professional experience: Brainist (Yettel and BGYH client projects), DLX Media, Postareni.hu, Freelance — Digital Marketing & Web Solutions, and VMLY&R.
+- About: interdisciplinary background and professional interests. VMLY&R is included under Professional Work.
 - Skills and tools: capabilities grounded in the supplied work inventory.
 - Contact: GitHub, plus clearly marked email and LinkedIn placeholders.
 
@@ -26,7 +27,7 @@ No deployment, commit or push is performed as part of this content update.
 
 - Confirmed email address and LinkedIn profile URL.
 - Actual project visuals and approved external project links; the layout uses text summaries until actual assets are supplied.
-- Specific contributions to Budapest Spas / BGYH Zrt., if a fuller account is desired.
+- Specific contributions to the Brainist client project for Budapest Spas (BGYH), if a fuller account is desired.
 - Thesis links and any research status, methods or findings to be shared beyond the supplied descriptions.
 - Additional software tools, dates or experience details only after confirmation.
 
