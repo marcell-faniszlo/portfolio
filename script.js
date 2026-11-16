@@ -1,7 +1,7 @@
 'use strict';
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Media is optional: production overviews and descriptions remain readable without JS.
+// Project descriptions and native disclosures remain readable without JavaScript.
 const media = window.projectMedia || {};
 function safeURL(value) {
   if (typeof value !== 'string' || !value.trim()) return null;
@@ -89,14 +89,6 @@ document.querySelectorAll('[data-project]').forEach(area => {
     });
     area.append(list);
   }
-});
-const covers = { yettel: ['yettel'], brainist: ['yettel', 'budapest-spas'], 'dlx-media': ['dlx-media'], 'cold-grey': ['cold-grey'], research: ['msc-thesis', 'ba-thesis'] };
-document.querySelectorAll('[data-cover]').forEach(area => {
-  const images = covers[area.dataset.cover]?.flatMap(key => media[key]?.images || []) || [];
-  const figures = images.map(imageFigure).filter(Boolean).slice(0, 2);
-  if (!figures.length) return;
-  area.replaceChildren(...figures);
-  area.classList.toggle('layered-cover', figures.length > 1);
 });
 // Direct links into supporting experience disclose the target before scrolling.
 function revealLinkedExperience() {
